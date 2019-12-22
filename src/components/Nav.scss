@@ -1,0 +1,76 @@
+.nav-container {
+	display: flex;
+	//opacity: 0;
+	//transition: opacity 1s;
+	background-color: transparent;
+	position: fixed;
+	//list-style: none;
+	right: 20px;
+	bottom: 80px;
+	height: 180px;
+	width: 90px;
+
+	.nav-bar-container {
+		background-color: transparenta;
+		width: 50%;
+		position: relative;
+
+		.location-icon {
+			background-color: teal;
+			transition: top 0.4s ease 0s;
+			position: absolute;
+			border-radius: 50%;
+			left: 50%;
+			margin-left: -3px;
+			margin-top: -3px;
+			top: 0%;
+			width: 6px;
+			height: 6px;
+		}
+		.nav-anchor {
+			//background-color: gray;
+			position: absolute;
+			left: 0%;
+			height: 20px;
+			margin-top: -10px;
+			width: 200%;
+			transition: background-color 0.5s;
+
+			.nav-line {
+				background-color: black;
+				position: absolute;
+				left: 0%;
+				height: 2px;
+				top: 50%;
+				margin-top: -1px;
+				width: 50%;
+				transition: background-color 0.5s;
+			}
+		}
+
+		.vertical-nav-line {
+			background-color: black;
+			position: absolute;
+			left: 50%;
+			top: 0px;
+			margin-left: -1px;
+			width: 2px;
+			height: 100%;
+		}
+	}
+	.nav-titles-container {
+		background-color: transparent;
+		position: relative;
+		font-size: 1em;
+		width: 50%;
+
+		.nav-title {
+			margin-left: 5px;
+			margin-top: -7px;
+			position: absolute;
+			left: 0%;
+			transition: color 0.5s;
+			list-style: none;
+		}
+	}
+}
